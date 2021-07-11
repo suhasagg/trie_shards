@@ -17,11 +17,6 @@ import java.io.FileInputStream;
 import java.util.StringTokenizer;
 import java.io.InputStream;
 
-/**
- * Built using CHelper plug-in
- * Actual solution is at the top
- * 
- */
 public class Main {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
@@ -71,8 +66,6 @@ class TaskD {
 		    for (int j = 0;j < l1[i].length(); j++){
 			    al[i].add(l1[i].substring(0, j + 1));
 		    }
-//		    DebugZ.print(al[i]);
-//		    System.out.println(al[i]);
 	    }
 
 	    max = Long.MIN_VALUE;
